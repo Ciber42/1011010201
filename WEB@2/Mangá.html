@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset="UTF-8">
+<title>Web 2</title>
+<head>  
+    <link rel="stylesheet" href="POG.css">
+    <script src="JAVAMAN.js"></script>
+  </head>
+
+  <body>
+<header>
+  <h1>⛩️ Sebo Kyoto ⛩️</h1>
+  <h2 id="h2Div">Doe seus mangás para nosso catálogo</h2>
+</h1>
+
+</header>
+
+  <main>
+
+    <form id="formCadastro" action="testeDados.html">
+      <br>
+      <label>DADOS PARA O RECEBIMENTO DO MANGÁ</label>
+      <br>
+      <input type="text" id="texto" placeholder="Nome do mangá">
+      <br>
+              <label>Data e hora do Despache: </label>
+              <input type="date" id="data" ></input>      
+              <input type="time" id="hora" ></input>        
+              
+           <br>
+           <label>Locais para doação</label>
+           <br>
+              <select name="estados" id="estados" onchange="opcoesCidades()";>
+            <br>
+           <option value="">Selecione um ponto de Coleta</option>
+             <option value="1">Shopping Recife</option>
+                <option value="2">Terminal integrado de Jaboatão</option>
+                <option value="3">Shopping Camará</option>
+                <option value="4">Parque do Sítio Novo</option>
+                <option value="5">Igreja de Santa Isabel</option>
+              </select> 
+              <br>
+              <label>Melhor Cidade</label>
+          <br>
+          <select name="nomeDaCidade" id="nomeCidade">
+              <option value="">Selecione uma Cidade</option>
+              </select>
+            
+                  
+          
+                      
+      </form>
+      <input type="submit" id="bt" class="btn-add" onclick="arquivar()">
+      
+      <br><br>
+</main>
+  
+<footer>
+<p>
+    Criado por &copy; Edilson e Paulo
+</p>
+</footer>
+  </body>

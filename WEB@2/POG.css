@@ -1,0 +1,125 @@
+
+@charset "UTF-8";
+:root{
+    --clr-primary:#2962ff;
+    --clr-primary-hover:#0d47a1;
+    --clr-gray-med:#78909c;
+    --clr-gray-light:#cfd8dc;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+header {
+    align-items: center;
+    background-color:rgb(35, 83, 63);
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-bottom: 2px solid var(--clr-gray-light);
+}
+             
+    body {
+        font-family:'Open Sans', sans-serif;
+        background-image:url("https://cf.shopee.com.br/file/2df195c84922943e0f2b032adebaca2e");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        width: 100%;
+        background-color: burlywood;
+        text-align: center;
+}         
+          label{
+            background-color: #680d0d;
+            color: #ababb8ef; 
+            border: 2px#0c0202ec solid ;
+            border-radius: 5px;
+          }
+    input {
+    border-radius: 5px;
+    padding: 5px;
+    border: 4px #000000 solid;
+    margin: 0px 0px 12px 5px;
+} 
+select {
+  border-radius: 5px;
+  padding: 5px;
+  border: 4px #000000 solid;
+  margin: 0px 0px 12px 5px;
+}          
+.btn-add{
+    border: none;
+    background-color: #a42929;
+    color: white;
+    cursor: pointer;
+    font-family: bold;
+    border-radius: 0.2em;
+    outline: none;
+    transition: all 100ms ease-in;
+  } 
+
+  .btn-add:active,
+.btn-add:hover {
+  background-color: var(--clr-primary-hover);
+}       
+    #queimar {
+
+    margin: 0px 0px 5px 5px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px #000000 dashed ;        
+}          
+   #modificar {
+   margin: 0px 0px 5px 5px;
+   border-radius: 5px;
+   padding: 5px;
+   border: 2px #000000 dashed;       
+}          
+   h1 {
+   margin: 0px 0px 5px 5px;
+   text-align: center;
+   color:	#f8f8f8;      
+}
+    h2 {
+    margin: 0px 0px 7px 7px;
+    text-align: center;
+    color:	#080707;
+}
+    footer {
+    border-top: 2px solid var(--clr-gray-light);
+    background-color:rgb(170, 57, 28);
+    opacity: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    bottom: 0;
+    position: fixed;
+    padding: 3px;
+    width: 100%;
+}
+div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 2em 0em;
+  }
+  .div-shadow {
+    resize: auto;
+    padding-inline-end:8em;
+    overflow: auto;
+    border-radius: 5px;
+    border: 2px #000000 solid;
+    width: 5em;
+    height: 3em;
+    margin: 5px auto;
+    background-color: whitesmoke;
+    transition: all 100ms ease-in-out;
+  }
+  .div-shadow:nth-child(odd) {
+    box-shadow: 0px 0px 10px var(--clr-gray-med);
+  }
+  .div-shadow:nth-child(even) {
+    box-shadow: inset 0px 0px 10px var(--clr-gray-med);
+  }
+  .div-shadow:hover {
+    transform: scale(1.2);
+  }
